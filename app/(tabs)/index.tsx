@@ -19,7 +19,7 @@ export default function App() {
       <Button title="Escanear" onPress={handleScan} />
       {device && (
         <>
-          <Text>Dispositivo encontrado: {device.name}</Text>
+          <Text>Dispositivo encontrado tet: {device.name}</Text>
           <Button title="Conectar e ler frequência" onPress={handleConnect} />
         </>
       )}
